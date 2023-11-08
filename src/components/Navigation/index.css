@@ -1,0 +1,36 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.nav-menu {
+  list-style-type: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  border: 5px solid red;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+
+.nav-heading {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.nav-icon {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  color: grey;
+}

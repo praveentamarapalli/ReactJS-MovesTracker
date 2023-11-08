@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.nav-cotainer {
+  width: 20%;
+}
+
+.my-moves-container {
+  width: 80%;
+}
+
+.moves-container {
+  list-style-type: none;
+}
